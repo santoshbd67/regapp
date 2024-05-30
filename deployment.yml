@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: reg-app
-        image: nginx:1.14.2
+        image: santoshbd67/regiapp:latest
         ports:
         - containerPort: 3000
